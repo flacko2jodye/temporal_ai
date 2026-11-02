@@ -1,0 +1,70 @@
+{
+    "model": "openai/clip-vit-base-patch32",
+    "experiment": "zero_shot_clip_multi_frame_score_averaging",
+    "num_frames": 8,
+    "num_test_videos_in_inventory": 180,
+    "num_evaluated": 180,
+    "num_failures": 0,
+    "accuracy": 0.7166666666666667,
+    "macro_f1": 0.7099200112498218,
+    "per_class_metrics": {
+        "brush_hair": {
+            "precision": 0.90625,
+            "recall": 0.9666666666666667,
+            "f1-score": 0.9354838709677419,
+            "support": 30.0
+        },
+        "clap": {
+            "precision": 0.5588235294117647,
+            "recall": 0.6333333333333333,
+            "f1-score": 0.59375,
+            "support": 30.0
+        },
+        "drink": {
+            "precision": 0.6511627906976745,
+            "recall": 0.9333333333333333,
+            "f1-score": 0.7671232876712328,
+            "support": 30.0
+        },
+        "eat": {
+            "precision": 0.6216216216216216,
+            "recall": 0.7666666666666667,
+            "f1-score": 0.6865671641791045,
+            "support": 30.0
+        },
+        "pour": {
+            "precision": 0.9411764705882353,
+            "recall": 0.5333333333333333,
+            "f1-score": 0.6808510638297872,
+            "support": 30.0
+        },
+        "wave": {
+            "precision": 0.8235294117647058,
+            "recall": 0.4666666666666667,
+            "f1-score": 0.5957446808510638,
+            "support": 30.0
+        },
+        "accuracy": 0.7166666666666667,
+        "macro avg": {
+            "precision": 0.7504273040140003,
+            "recall": 0.7166666666666667,
+            "f1-score": 0.7099200112498218,
+            "support": 180.0
+        },
+        "weighted avg": {
+            "precision": 0.7504273040140004,
+            "recall": 0.7166666666666667,
+            "f1-score": 0.7099200112498217,
+            "support": 180.0
+        }
+    },
+    "class_prompts": {
+        "brush_hair": "A video of a person brushing their hair.",
+        "clap": "A video of a person clapping their hands.",
+        "drink": "A video of a person drinking something.",
+        "eat": "A video of a person eating food.",
+        "pour": "A video of a person pouring a liquid.",
+        "wave": "A video of a person waving their hand."
+    },
+    "device": "cuda"
+}

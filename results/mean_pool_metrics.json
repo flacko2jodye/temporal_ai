@@ -1,0 +1,9 @@
+{
+    "model": "mean_pool_mlp",
+    "accuracy": 0.7277777777777777,
+    "macro_f1": 0.7264237366495818,
+    "test_samples": 180,
+    "frames_per_video": 8,
+    "embedding_dimension": 384,
+    "temporal_order_preserved": false
+}

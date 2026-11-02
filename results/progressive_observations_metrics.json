@@ -1,0 +1,56 @@
+{
+    "experiment": "progressive_observations",
+    "model": "temporal_gru",
+    "dataset": "HMDB51_selected_six_classes",
+    "training_videos": 336,
+    "validation_videos": 84,
+    "testing_videos": 180,
+    "observation_counts": {
+        "1": {
+            "observations": 1,
+            "accuracy": 0.6444444444444445,
+            "macro_f1": 0.6404022173118117,
+            "test_samples": 180,
+            "input_shape": [
+                180,
+                1,
+                384
+            ]
+        },
+        "2": {
+            "observations": 2,
+            "accuracy": 0.7,
+            "macro_f1": 0.6972201924044142,
+            "test_samples": 180,
+            "input_shape": [
+                180,
+                2,
+                384
+            ]
+        },
+        "4": {
+            "observations": 4,
+            "accuracy": 0.7055555555555556,
+            "macro_f1": 0.7004795524421407,
+            "test_samples": 180,
+            "input_shape": [
+                180,
+                4,
+                384
+            ]
+        },
+        "8": {
+            "observations": 8,
+            "accuracy": 0.7277777777777777,
+            "macro_f1": 0.7227368284811693,
+            "test_samples": 180,
+            "input_shape": [
+                180,
+                8,
+                384
+            ]
+        }
+    },
+    "preprocessing": "StandardScaler fitted on all training frames and reused across observation conditions.",
+    "selection_strategy": "First K frames from the uniformly sampled chronological eight-frame sequence."
+}

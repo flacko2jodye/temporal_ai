@@ -1,0 +1,173 @@
+{
+  "dataset": "HMDB51 selected six classes",
+  "test_samples": 180,
+  "classes": [
+    "brush_hair",
+    "clap",
+    "drink",
+    "eat",
+    "pour",
+    "wave"
+  ],
+  "models": [
+    {
+      "model": "DINOv2 Single-frame MLP",
+      "input": "1 frame",
+      "accuracy": 0.6944444444444444,
+      "macro_f1": 0.6914451125166056
+    },
+    {
+      "model": "DINOv2 Mean-pooling MLP",
+      "input": "8 frames",
+      "accuracy": 0.7277777777777777,
+      "macro_f1": 0.7264237366495818
+    },
+    {
+      "model": "DINOv2 Temporal GRU",
+      "input": "8 ordered frames",
+      "accuracy": 0.7166666666666667,
+      "macro_f1": 0.7108357637281241
+    },
+    {
+      "model": "CLIP Zero-shot",
+      "input": "8-frame score averaging",
+      "accuracy": 0.7166666666666667,
+      "macro_f1": 0.7099200112498218
+    }
+  ],
+  "temporal_order": {
+    "accuracy_mean": 0.7177777777777778,
+    "accuracy_std": 0.015225781326736645,
+    "accuracy_min": 0.7,
+    "accuracy_max": 0.75,
+    "macro_f1_mean": 0.7127437127895827,
+    "macro_f1_std": 0.014738979530240276,
+    "macro_f1_min": 0.6946538493970823,
+    "macro_f1_max": 0.7438114525650162,
+    "accuracy_difference_from_original": 0.0011111111111111738,
+    "macro_f1_difference_from_original": 0.0019079490614586359,
+    "shuffles_below_original_accuracy": 5,
+    "shuffles_below_original_macro_f1": 6
+  },
+  "progressive_observations": [
+    {
+      "observation_count": 1,
+      "selected_frame_indices": [
+        4
+      ],
+      "accuracy": 0.7388888888888889,
+      "macro_f1": 0.7364230138842472,
+      "checkpoint": "results\\progressive_coverage_gru_1_frames.pth"
+    },
+    {
+      "observation_count": 2,
+      "selected_frame_indices": [
+        0,
+        7
+      ],
+      "accuracy": 0.7055555555555556,
+      "macro_f1": 0.6973985334641073,
+      "checkpoint": "results\\progressive_coverage_gru_2_frames.pth"
+    },
+    {
+      "observation_count": 4,
+      "selected_frame_indices": [
+        0,
+        2,
+        5,
+        7
+      ],
+      "accuracy": 0.7388888888888889,
+      "macro_f1": 0.7297746443750542,
+      "checkpoint": "results\\progressive_coverage_gru_4_frames.pth"
+    },
+    {
+      "observation_count": 8,
+      "selected_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "accuracy": 0.7222222222222222,
+      "macro_f1": 0.7125573362313959,
+      "checkpoint": "results\\progressive_coverage_gru_8_frames.pth"
+    }
+  ],
+  "frame_ablation": {
+    "original": {
+      "condition": "original",
+      "frame_removed": null,
+      "accuracy": 0.7166666666666667,
+      "macro_f1": 0.7108357637281241
+    },
+    "frame_0_ablated": {
+      "condition": "frame_0_ablated",
+      "frame_removed": 0,
+      "accuracy": 0.7222222222222222,
+      "macro_f1": 0.7155481018749289,
+      "accuracy_change": 0.005555555555555536,
+      "macro_f1_change": 0.004712338146804829
+    },
+    "frame_1_ablated": {
+      "condition": "frame_1_ablated",
+      "frame_removed": 1,
+      "accuracy": 0.7111111111111111,
+      "macro_f1": 0.7056248456139801,
+      "accuracy_change": -0.005555555555555536,
+      "macro_f1_change": -0.005210918114143981
+    },
+    "frame_2_ablated": {
+      "condition": "frame_2_ablated",
+      "frame_removed": 2,
+      "accuracy": 0.7166666666666667,
+      "macro_f1": 0.7105613265021145,
+      "accuracy_change": 0.0,
+      "macro_f1_change": -0.0002744372260096162
+    },
+    "frame_3_ablated": {
+      "condition": "frame_3_ablated",
+      "frame_removed": 3,
+      "accuracy": 0.7222222222222222,
+      "macro_f1": 0.7159349413333594,
+      "accuracy_change": 0.005555555555555536,
+      "macro_f1_change": 0.005099177605235372
+    },
+    "frame_4_ablated": {
+      "condition": "frame_4_ablated",
+      "frame_removed": 4,
+      "accuracy": 0.7166666666666667,
+      "macro_f1": 0.7105810223409103,
+      "accuracy_change": 0.0,
+      "macro_f1_change": -0.00025474138721381934
+    },
+    "frame_5_ablated": {
+      "condition": "frame_5_ablated",
+      "frame_removed": 5,
+      "accuracy": 0.7388888888888889,
+      "macro_f1": 0.733770707790665,
+      "accuracy_change": 0.022222222222222254,
+      "macro_f1_change": 0.02293494406254093
+    },
+    "frame_6_ablated": {
+      "condition": "frame_6_ablated",
+      "frame_removed": 6,
+      "accuracy": 0.7388888888888889,
+      "macro_f1": 0.734611211713078,
+      "accuracy_change": 0.022222222222222254,
+      "macro_f1_change": 0.0237754479849539
+    },
+    "frame_7_ablated": {
+      "condition": "frame_7_ablated",
+      "frame_removed": 7,
+      "accuracy": 0.7333333333333333,
+      "macro_f1": 0.7291521256122667,
+      "accuracy_change": 0.016666666666666607,
+      "macro_f1_change": 0.01831636188414265
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "model": "single_frame_mlp",
+    "accuracy": 0.6944444444444444,
+    "macro_f1": 0.6914451125166056,
+    "test_samples": 180,
+    "frames_per_video": 1,
+    "embedding_dimension": 384
+}

@@ -1,0 +1,181 @@
+filename,true_label,single_frame_prediction,single_frame_correct,mean_pool_prediction,mean_pool_correct,gru_prediction,gru_correct,all_models_correct,all_models_wrong,error_pattern
+103_years_old_japanese_woman__Nao_is_clapping_with_piano_music_by_beethoven_clap_u_cm_np1_fr_med_1.avi,clap,clap,True,clap,True,clap,True,True,False,none
+103_years_old_japanese_woman__Nao_is_clapping_with_piano_music_by_beethoven_clap_u_nm_np1_fr_med_0.avi,clap,eat,False,eat,False,eat,False,False,True,single_frame | mean_pool | gru
+20060723sfjffbartsinger_wave_f_cm_np1_ba_med_0.avi,wave,wave,True,eat,False,eat,False,False,False,mean_pool | gru
+20060723sfjffdabaum_eat_h_cm_np1_fr_goo_0.avi,eat,eat,True,eat,True,eat,True,True,False,none
+50_FIRST_DATES_drink_u_nm_np1_fr_goo_29.avi,drink,drink,True,drink,True,drink,True,True,False,none
+AMADEUS_drink_u_nm_np1_fr_goo_11.avi,drink,drink,True,eat,False,eat,False,False,False,mean_pool | gru
+AMADEUS_eat_u_nm_np1_fr_goo_10.avi,eat,wave,False,wave,False,wave,False,False,True,single_frame | mean_pool | gru
+AMADEUS_eat_u_nm_np1_fr_med_5.avi,eat,eat,True,eat,True,eat,True,True,False,none
+AMADEUS_eat_u_nm_np1_fr_med_6.avi,eat,eat,True,eat,True,eat,True,True,False,none
+APOCALYPTO_eat_u_nm_np1_fr_goo_6.avi,eat,eat,True,eat,True,eat,True,True,False,none
+Aishwarya_Rai_Burns_David_Letterman_in_his_own_show_clap_u_cm_np1_fr_bad_1.avi,clap,wave,False,wave,False,wave,False,False,True,single_frame | mean_pool | gru
+Alex_applauding_himself_clap_u_cm_np1_fr_med_1.avi,clap,clap,True,clap,True,clap,True,True,False,none
+Alex_applauding_himself_clap_u_nm_np1_fr_med_0.avi,clap,clap,True,clap,True,clap,True,True,False,none
+American_History_X_drink_h_nm_np1_fr_goo_46.avi,drink,drink,True,drink,True,drink,True,True,False,none
+American_History_X_wave_u_nm_np1_fr_med_16.avi,wave,drink,False,wave,True,wave,True,False,False,single_frame
+Aussie_Brunette_Brushing_Long_Hair_brush_hair_u_nm_np1_ba_med_3.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+Aussie_Brunette_Brushing_Long_Hair_brush_hair_u_nm_np1_fr_goo_1.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+Aussie_Brunette_Brushing_Long_Hair_brush_hair_u_nm_np1_fr_goo_2.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+Aussie_Brunette_Brushing_Long_Hair_brush_hair_u_nm_np1_fr_med_0.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+BATMAN_BEGINS_wave_u_cm_np1_fr_med_19.avi,wave,drink,False,wave,True,wave,True,False,False,single_frame
+BIG_FISH_drink_u_nm_np1_fr_goo_5.avi,drink,drink,True,drink,True,drink,True,True,False,none
+Bartender_of_America_Bartending_School_pour_u_cm_np1_fr_med_0.avi,pour,pour,True,pour,True,pour,True,True,False,none
+Bartender_of_America_Bartending_School_pour_u_cm_np1_fr_med_1.avi,pour,pour,True,pour,True,pour,True,True,False,none
+Bartender_of_America_Bartending_School_pour_u_cm_np1_fr_med_2.avi,pour,pour,True,pour,True,pour,True,True,False,none
+Basic_Vodka_Recipes_-_How_to_Make_a_Shirley_Temple_pour_u_cm_np1_fr_med_0.avi,pour,pour,True,pour,True,drink,False,False,False,gru
+Basic_Vodka_Recipes_-_How_to_Make_a_Shirley_Temple_pour_u_cm_np1_fr_med_1.avi,pour,pour,True,pour,True,pour,True,True,False,none
+Bottoms_Up_-_Bartending_Lesson__Licor_43_Dreamsicle_pour_u_nm_np2_fr_goo_0.avi,pour,pour,True,pour,True,pour,True,True,False,none
+Bottoms_Up_-_Bartending_Lesson__Licor_43_Dreamsicle_pour_u_nm_np2_fr_goo_1.avi,pour,pour,True,pour,True,pour,True,True,False,none
+Brushing_Her_Hair__[_NEW_AUDIO_]_UPDATED!!!!_brush_hair_h_cm_np1_fr_goo_0.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+Brushing_Her_Hair__[_NEW_AUDIO_]_UPDATED!!!!_brush_hair_h_cm_np1_le_goo_1.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+Brushing_Her_Hair__[_NEW_AUDIO_]_UPDATED!!!!_brush_hair_h_cm_np1_le_goo_2.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+Brushing_my_long_hair_brush_hair_u_nm_np1_ba_goo_2.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+Brushing_my_long_hair_brush_hair_u_nm_np1_fr_goo_0.avi,brush_hair,brush_hair,True,wave,False,brush_hair,True,False,False,mean_pool
+Brushing_my_long_hair_brush_hair_u_nm_np1_fr_goo_1.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+Bubble_Gum_Club_2_wave_h_nm_np2_fr_med_0.avi,wave,brush_hair,False,brush_hair,False,brush_hair,False,False,True,single_frame | mean_pool | gru
+Bush_Wave_vs__Obama_Wave_and_Which_Commander-in-chief_Salutes_the_Best__You_Decide_wave_u_cm_np1_fr_med_0.avi,wave,wave,True,wave,True,wave,True,True,False,none
+Bush_Wave_vs__Obama_Wave_and_Which_Commander-in-chief_Salutes_the_Best__You_Decide_wave_u_cm_np1_fr_med_1.avi,wave,wave,True,wave,True,wave,True,True,False,none
+Bush_Wave_vs__Obama_Wave_and_Which_Commander-in-chief_Salutes_the_Best__You_Decide_wave_u_cm_np1_fr_med_10.avi,wave,wave,True,wave,True,wave,True,True,False,none
+Bush_Wave_vs__Obama_Wave_and_Which_Commander-in-chief_Salutes_the_Best__You_Decide_wave_u_cm_np1_fr_med_2.avi,wave,wave,True,wave,True,wave,True,True,False,none
+Bush_Wave_vs__Obama_Wave_and_Which_Commander-in-chief_Salutes_the_Best__You_Decide_wave_u_cm_np1_fr_med_3.avi,wave,wave,True,wave,True,wave,True,True,False,none
+Bush_Wave_vs__Obama_Wave_and_Which_Commander-in-chief_Salutes_the_Best__You_Decide_wave_u_cm_np1_fr_med_4.avi,wave,wave,True,wave,True,wave,True,True,False,none
+Bush_Wave_vs__Obama_Wave_and_Which_Commander-in-chief_Salutes_the_Best__You_Decide_wave_u_cm_np1_fr_med_7.avi,wave,wave,True,wave,True,wave,True,True,False,none
+Bush_Wave_vs__Obama_Wave_and_Which_Commander-in-chief_Salutes_the_Best__You_Decide_wave_u_cm_np1_fr_med_8.avi,wave,wave,True,wave,True,wave,True,True,False,none
+Bush_Wave_vs__Obama_Wave_and_Which_Commander-in-chief_Salutes_the_Best__You_Decide_wave_u_cm_np1_fr_med_9.avi,wave,wave,True,wave,True,wave,True,True,False,none
+Bush_Wave_vs__Obama_Wave_and_Which_Commander-in-chief_Salutes_the_Best__You_Decide_wave_u_cm_np1_le_med_6.avi,wave,wave,True,wave,True,wave,True,True,False,none
+CastAway1_drink_h_cm_np1_le_goo_17.avi,drink,drink,True,drink,True,drink,True,True,False,none
+CastAway1_drink_u_nm_np1_ri_goo_7.avi,drink,eat,False,eat,False,eat,False,False,True,single_frame | mean_pool | gru
+Chanta!____THAT_IS_long_blonde_hair!_brush_hair_u_cm_np1_fr_goo_2.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+Chanta!____THAT_IS_long_blonde_hair!_brush_hair_u_cm_np1_le_goo_0.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+Chanta!____THAT_IS_long_blonde_hair!_brush_hair_u_nm_np1_ri_goo_3.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+Chinese_tea_ceremony_pour_u_cm_np1_fr_goo_0.avi,pour,pour,True,pour,True,pour,True,True,False,none
+Chinese_tea_ceremony_pour_u_cm_np1_fr_goo_1.avi,pour,pour,True,pour,True,pour,True,True,False,none
+Chinese_tea_ceremony_pour_u_cm_np1_fr_goo_2.avi,pour,pour,True,pour,True,pour,True,True,False,none
+Cuba_Libre_-_Just_do_it_with_Drinkadrink_com_pour_u_nm_np1_fr_goo_0.avi,pour,pour,True,pour,True,pour,True,True,False,none
+DONNIE_DARKO_drink_u_nm_np1_fr_goo_4.avi,drink,drink,True,drink,True,drink,True,True,False,none
+DONNIE_DARKO_wave_u_nm_np1_fr_goo_9.avi,wave,wave,True,eat,False,eat,False,False,False,mean_pool | gru
+DONNIE_DARKO_wave_u_nm_np1_le_goo_8.avi,wave,drink,False,drink,False,eat,False,False,True,single_frame | mean_pool | gru
+EVOLUTION_drink_u_cm_np1_fr_goo_11.avi,drink,eat,False,eat,False,eat,False,False,True,single_frame | mean_pool | gru
+Ella_brushing_her_amazing_long_hair_brush_hair_u_cm_np1_ba_goo_0.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+Ella_brushing_her_amazing_long_hair_brush_hair_u_cm_np1_ba_goo_2.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+Ella_brushing_her_amazing_long_hair_brush_hair_u_cm_np1_ri_goo_1.avi,brush_hair,clap,False,brush_hair,True,brush_hair,True,False,False,single_frame
+Eurotrip_wave_u_nm_np1_fr_goo_4.avi,wave,clap,False,wave,True,wave,True,False,False,single_frame
+Finding_Forrester_3_clap_u_nm_np1_ri_med_0.avi,clap,drink,False,drink,False,drink,False,False,True,single_frame | mean_pool | gru
+Finding_Forrester_3_drink_h_nm_np1_fr_med_16.avi,drink,eat,False,drink,True,drink,True,False,False,single_frame
+Finding_Forrester_3_drink_u_nm_np1_fr_goo_15.avi,drink,drink,True,drink,True,drink,True,True,False,none
+Flaming_B52_Shot_Drink_pour_u_nm_np1_fr_med_0.avi,pour,pour,True,pour,True,pour,True,True,False,none
+Flaming_B52_Shot_Drink_pour_u_nm_np1_fr_med_1.avi,pour,pour,True,pour,True,pour,True,True,False,none
+Flaming_B52_Shot_Drink_pour_u_nm_np1_fr_med_2.avi,pour,pour,True,pour,True,pour,True,True,False,none
+GardenWiseA256kb_drink_u_cm_np1_fr_goo_0.avi,drink,drink,True,wave,False,drink,True,False,False,mean_pool
+Gattaca_drink_h_cm_np1_fr_goo_4.avi,drink,eat,False,eat,False,eat,False,False,True,single_frame | mean_pool | gru
+Gattaca_drink_h_nm_np1_fr_goo_3.avi,drink,drink,True,drink,True,drink,True,True,False,none
+Gaye_waves_to_the_paparazzi_as_she_flees_New_York_after_stalking_Adam_Lambert_in_Central_Park_wave_u_cm_np1_fr_med_0.avi,wave,wave,True,wave,True,wave,True,True,False,none
+HP_PRISONER_OF_AZKABAN_wave_f_cm_np1_fr_med_12.avi,wave,drink,False,drink,False,drink,False,False,True,single_frame | mean_pool | gru
+HP_PRISONER_OF_AZKABAN_wave_u_nm_np1_ri_med_39.avi,wave,wave,True,wave,True,wave,True,True,False,none
+Hands_Up__Clap_Hands_And_Wave!_wave_f_cm_np1_ri_med_0.avi,wave,clap,False,clap,False,clap,False,False,True,single_frame | mean_pool | gru
+Hitch_Part_1_wave_u_nm_np1_fr_goo_1.avi,wave,wave,True,wave,True,wave,True,True,False,none
+Hitch_Part_2_eat_h_nm_np1_fr_goo_0.avi,eat,drink,False,drink,False,drink,False,False,True,single_frame | mean_pool | gru
+IamLegendII_eat_h_nm_np1_le_goo_8.avi,eat,eat,True,eat,True,eat,True,True,False,none
+IamLegendII_eat_u_nm_np1_fr_med_5.avi,eat,eat,True,eat,True,eat,True,True,False,none
+IamLegendII_eat_u_nm_np1_fr_med_6.avi,eat,eat,True,eat,True,eat,True,True,False,none
+IamLegend_wave_u_nm_np1_ba_med_6.avi,wave,wave,True,wave,True,wave,True,True,False,none
+KOREAN_TEA_CEREMONY_-_Simple_Demo_pour_u_nm_np1_fr_med_0.avi,pour,pour,True,wave,False,brush_hair,False,False,False,mean_pool | gru
+KOREAN_TEA_CEREMONY_-_Simple_Demo_pour_u_nm_np1_fr_med_1.avi,pour,brush_hair,False,wave,False,brush_hair,False,False,True,single_frame | mean_pool | gru
+KOREAN_TEA_CEREMONY_-_Simple_Demo_pour_u_nm_np1_fr_med_2.avi,pour,clap,False,wave,False,brush_hair,False,False,True,single_frame | mean_pool | gru
+KUNG_FU_HUSTLE_drink_h_cm_np1_fr_goo_5.avi,drink,eat,False,drink,True,eat,False,False,False,single_frame | gru
+LONGESTYARD_eat_h_cm_np1_ri_goo_23.avi,eat,drink,False,drink,False,drink,False,False,True,single_frame | mean_pool | gru
+LetThePeopleClap_clap_u_cm_np1_fr_med_1.avi,clap,wave,False,wave,False,wave,False,False,True,single_frame | mean_pool | gru
+LetThePeopleClap_clap_u_cm_np1_fr_med_2.avi,clap,wave,False,wave,False,wave,False,False,True,single_frame | mean_pool | gru
+Martin_klatscht_in_die_h_nde_und_FURZT_clap_u_cm_np1_fr_med_0.avi,clap,brush_hair,False,brush_hair,False,brush_hair,False,False,True,single_frame | mean_pool | gru
+MeettheFockers_drink_u_cm_np1_fr_goo_4.avi,drink,eat,False,drink,True,drink,True,False,False,single_frame
+MeettheFockers_drink_u_nm_np1_fr_goo_10.avi,drink,eat,False,eat,False,eat,False,False,True,single_frame | mean_pool | gru
+MeettheFockers_drink_u_nm_np1_fr_goo_6.avi,drink,eat,False,eat,False,drink,True,False,False,single_frame | mean_pool
+Miro_Klose_winkt_wave_f_cm_np1_le_med_0.avi,wave,wave,True,wave,True,wave,True,True,False,none
+My_First_Hefeweizen_pour_u_nm_np1_ri_med_0.avi,pour,pour,True,pour,True,pour,True,True,False,none
+My_First_Hefeweizen_pour_u_nm_np1_ri_med_1.avi,pour,brush_hair,False,pour,True,pour,True,False,False,single_frame
+My_First_Hefeweizen_pour_u_nm_np1_ri_med_2.avi,pour,pour,True,pour,True,pour,True,True,False,none
+NOVA_ELEGANTUNIVERSE3_eat_h_nm_np1_ri_goo_0.avi,eat,eat,True,eat,True,eat,True,True,False,none
+Oceans11_drink_h_nm_np1_fr_goo_3.avi,drink,drink,True,drink,True,drink,True,True,False,none
+Oceans11_drink_h_nm_np1_fr_goo_4.avi,drink,drink,True,drink,True,drink,True,True,False,none
+Oceans11_drink_h_nm_np1_fr_goo_8.avi,drink,eat,False,drink,True,drink,True,False,False,single_frame
+Oceans11_drink_h_nm_np1_le_goo_5.avi,drink,eat,False,eat,False,eat,False,False,True,single_frame | mean_pool | gru
+Oceans13_drink_h_nm_np1_fr_goo_3.avi,drink,drink,True,wave,False,drink,True,False,False,mean_pool
+Oceans13_drink_u_nm_np1_ri_goo_4.avi,drink,eat,False,eat,False,pour,False,False,True,single_frame | mean_pool | gru
+OldSchool_eat_h_nm_np1_fr_goo_20.avi,eat,eat,True,eat,True,eat,True,True,False,none
+OldSchool_wave_f_cm_np1_fr_med_13.avi,wave,wave,True,wave,True,wave,True,True,False,none
+Pirates_5_wave_h_nm_np1_fr_med_8.avi,wave,drink,False,eat,False,brush_hair,False,False,True,single_frame | mean_pool | gru
+Pomegranate_Martini_Cocktail_Recipes_pour_u_cm_np1_fr_med_0.avi,pour,pour,True,pour,True,pour,True,True,False,none
+Pomegranate_Martini_Cocktail_Recipes_pour_u_cm_np1_fr_med_1.avi,pour,pour,True,pour,True,pour,True,True,False,none
+Pomegranate_Martini_Cocktail_Recipes_pour_u_cm_np1_fr_med_2.avi,pour,pour,True,pour,True,pour,True,True,False,none
+Prelinger_HabitPat1954_brush_hair_h_nm_np1_ba_med_2.avi,brush_hair,drink,False,drink,False,drink,False,False,True,single_frame | mean_pool | gru
+Prelinger_HabitPat1954_brush_hair_h_nm_np1_fr_med_26.avi,brush_hair,wave,False,wave,False,wave,False,False,True,single_frame | mean_pool | gru
+Prelinger_HabitPat1954_brush_hair_u_cm_np1_le_med_10.avi,brush_hair,brush_hair,True,brush_hair,True,drink,False,False,False,gru
+Prelinger_HabitPat1954_brush_hair_u_nm_np1_le_goo_11.avi,brush_hair,drink,False,brush_hair,True,drink,False,False,False,single_frame | gru
+Prelinger_HabitPat1954_drink_u_nm_np1_fr_goo_15.avi,drink,eat,False,drink,True,eat,False,False,False,single_frame | gru
+Return_of_the_King_12_clap_u_nm_np1_fr_goo_4.avi,clap,drink,False,drink,False,eat,False,False,True,single_frame | mean_pool | gru
+Return_of_the_King_13_drink_h_nm_np1_fr_goo_1.avi,drink,drink,True,drink,True,drink,True,True,False,none
+Return_of_the_King_13_drink_u_nm_np4_le_med_0.avi,drink,drink,True,drink,True,drink,True,True,False,none
+Return_of_the_King_5_eat_h_nm_np1_fr_goo_6.avi,eat,eat,True,eat,True,eat,True,True,False,none
+Return_of_the_King_5_eat_h_nm_np1_le_goo_8.avi,eat,eat,True,eat,True,eat,True,True,False,none
+Return_of_the_King_5_eat_h_nm_np1_ri_goo_5.avi,eat,eat,True,eat,True,eat,True,True,False,none
+Return_of_the_King_5_eat_u_nm_np1_le_med_4.avi,eat,eat,True,eat,True,eat,True,True,False,none
+Riedel_-_How_to_Pour_a_Glass_of_Wine_pour_u_nm_np1_fr_goo_0.avi,pour,pour,True,pour,True,pour,True,True,False,none
+Robin_and_the_magical_tea_pour_pour_u_cm_np1_fr_goo_0.avi,pour,pour,True,pour,True,pour,True,True,False,none
+Silky_Straight_Hair_Original_brush_hair_h_nm_np1_ba_goo_0.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+Silky_Straight_Hair_Original_brush_hair_h_nm_np1_ba_goo_1.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+Silky_Straight_Hair_Original_brush_hair_u_nm_np1_ba_goo_2.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+SocialSeminarChanging_eat_u_cm_np1_fr_goo_2.avi,eat,drink,False,drink,False,eat,True,False,False,single_frame | mean_pool
+SocialSeminarChanging_eat_u_cm_np1_fr_med_1.avi,eat,drink,False,drink,False,drink,False,False,True,single_frame | mean_pool | gru
+Standing_clap_f_cm_np1_fr_med_0.avi,clap,clap,True,clap,True,clap,True,True,False,none
+Standing_clap_f_cm_np1_fr_med_1.avi,clap,clap,True,clap,True,clap,True,True,False,none
+Superbad_eat_u_nm_np1_fr_goo_1.avi,eat,eat,True,eat,True,eat,True,True,False,none
+SweeneyTodd_eat_h_nm_np1_fr_bad_1.avi,eat,drink,False,drink,False,eat,True,False,False,single_frame | mean_pool
+SweeneyTodd_eat_h_nm_np1_fr_goo_15.avi,eat,eat,True,eat,True,eat,True,True,False,none
+SweeneyTodd_eat_u_cm_np1_le_med_39.avi,eat,drink,False,eat,True,eat,True,False,False,single_frame
+Tea_in_Wudang_pour_u_nm_np1_fr_med_0.avi,pour,pour,True,pour,True,pour,True,True,False,none
+Tea_in_Wudang_pour_u_nm_np1_fr_med_1.avi,pour,pour,True,pour,True,pour,True,True,False,none
+Tea_in_Wudang_pour_u_nm_np1_fr_med_2.avi,pour,pour,True,pour,True,pour,True,True,False,none
+The_Departed_-_Part_1_eat_h_nm_np1_fr_goo_10.avi,eat,eat,True,eat,True,eat,True,True,False,none
+The_Departed_-_Part_1_eat_h_nm_np1_fr_goo_4.avi,eat,eat,True,eat,True,eat,True,True,False,none
+The_Departed_-_Part_1_eat_h_nm_np1_fr_goo_5.avi,eat,eat,True,eat,True,eat,True,True,False,none
+The_Departed_-_Part_1_eat_u_nm_np1_fr_goo_1.avi,eat,eat,True,wave,False,wave,False,False,False,mean_pool | gru
+The_Departed_-_Part_1_eat_u_nm_np1_fr_med_2.avi,eat,clap,False,eat,True,clap,False,False,False,single_frame | gru
+The_Departed_-_Part_1_eat_u_nm_np1_le_goo_0.avi,eat,eat,True,eat,True,eat,True,True,False,none
+The_Matrix_3_drink_h_nm_np1_ri_goo_11.avi,drink,drink,True,drink,True,drink,True,True,False,none
+The_Matrix_3_drink_h_nm_np1_ri_goo_9.avi,drink,drink,True,drink,True,drink,True,True,False,none
+The_Matrix_3_drink_u_nm_np1_ri_med_10.avi,drink,drink,True,drink,True,drink,True,True,False,none
+The_Pomegranate_Martini_pour_u_cm_np1_fr_med_1.avi,pour,pour,True,pour,True,pour,True,True,False,none
+The_Pomegranate_Martini_pour_u_nm_np1_fr_med_0.avi,pour,pour,True,pour,True,pour,True,True,False,none
+The_Slow_Clap_clap_u_cm_np1_fr_med_3.avi,clap,wave,False,clap,True,clap,True,False,False,single_frame
+The_Slow_Clap_clap_u_cm_np1_fr_med_4.avi,clap,wave,False,wave,False,clap,True,False,False,single_frame | mean_pool
+The_Slow_Clap_clap_u_cm_np2_fr_med_17.avi,clap,wave,False,wave,False,wave,False,False,True,single_frame | mean_pool | gru
+The_Slow_Clap_clap_u_nm_np1_fr_bad_20.avi,clap,clap,True,clap,True,clap,True,True,False,none
+The_Slow_Clap_clap_u_nm_np1_fr_bad_25.avi,clap,wave,False,wave,False,wave,False,False,True,single_frame | mean_pool | gru
+The_Slow_Clap_clap_u_nm_np1_fr_bad_27.avi,clap,wave,False,wave,False,wave,False,False,True,single_frame | mean_pool | gru
+The_Slow_Clap_clap_u_nm_np1_fr_med_0.avi,clap,clap,True,clap,True,clap,True,True,False,none
+The_Slow_Clap_clap_u_nm_np1_fr_med_1.avi,clap,clap,True,clap,True,clap,True,True,False,none
+The_Slow_Clap_clap_u_nm_np1_fr_med_12.avi,clap,pour,False,pour,False,pour,False,False,True,single_frame | mean_pool | gru
+The_Slow_Clap_clap_u_nm_np1_fr_med_14.avi,clap,pour,False,pour,False,pour,False,False,True,single_frame | mean_pool | gru
+The_Slow_Clap_clap_u_nm_np1_fr_med_2.avi,clap,clap,True,clap,True,wave,False,False,False,gru
+The_Slow_Clap_clap_u_nm_np1_fr_med_24.avi,clap,wave,False,wave,False,wave,False,False,True,single_frame | mean_pool | gru
+The_Slow_Clap_clap_u_nm_np2_fr_bad_26.avi,clap,wave,False,wave,False,wave,False,False,True,single_frame | mean_pool | gru
+The_Slow_Clap_clap_u_nm_np2_fr_med_22.avi,clap,eat,False,pour,False,drink,False,False,True,single_frame | mean_pool | gru
+The_Slow_Clap_clap_u_nm_np2_fr_med_8.avi,clap,clap,True,clap,True,wave,False,False,False,gru
+The_Slow_Clap_clap_u_nm_np3_fr_med_11.avi,clap,wave,False,wave,False,wave,False,False,True,single_frame | mean_pool | gru
+Theslowclap1_clap_f_cm_np1_fr_med_0.avi,clap,clap,True,clap,True,clap,True,True,False,none
+TrumanShow_eat_u_cm_np1_ri_med_27.avi,eat,drink,False,drink,False,drink,False,False,True,single_frame | mean_pool | gru
+TrumanShow_wave_f_nm_np1_fr_med_26.avi,wave,wave,True,wave,True,wave,True,True,False,none
+TrumanShow_wave_u_nm_np1_fr_med_0.avi,wave,wave,True,wave,True,wave,True,True,False,none
+TrumanShow_wave_u_nm_np1_fr_med_25.avi,wave,wave,True,wave,True,wave,True,True,False,none
+Two_Towers_3_eat_h_nm_np1_fr_goo_10.avi,eat,eat,True,eat,True,eat,True,True,False,none
+WeddingCrashers_wave_u_nm_np1_fr_goo_0.avi,wave,wave,True,eat,False,eat,False,False,False,mean_pool | gru
+brushing_jrs_hair_brush_hair_u_cm_np2_le_goo_1.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+gangboy256kb_drink_h_nm_np1_ri_goo_0.avi,drink,drink,True,drink,True,drink,True,True,False,none
+me_brushing_my_hair_lol_i_was_being_silly_brush_hair_u_nm_np1_ba_goo_2.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+me_brushing_my_hair_lol_i_was_being_silly_brush_hair_u_nm_np1_fr_goo_0.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+me_brushing_my_hair_lol_i_was_being_silly_brush_hair_u_nm_np1_le_goo_1.avi,brush_hair,wave,False,brush_hair,True,clap,False,False,False,single_frame | gru
+me_brushing_my_hair_lol_i_was_being_silly_brush_hair_u_nm_np1_ri_goo_3.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+red_head_brush_hair_u_cm_np1_fr_goo_1.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+red_head_brush_hair_u_cm_np1_le_goo_2.avi,brush_hair,brush_hair,True,brush_hair,True,brush_hair,True,True,False,none
+that70_sshowslowclap_clap_u_nm_np1_fr_med_0.avi,clap,clap,True,clap,True,clap,True,True,False,none

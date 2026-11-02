@@ -1,0 +1,5 @@
+observation_count,selected_frame_indices,accuracy,macro_f1,checkpoint
+1,[4],0.7388888888888889,0.7364230138842472,results\progressive_coverage_gru_1_frames.pth
+2,"[0, 7]",0.7055555555555556,0.6973985334641073,results\progressive_coverage_gru_2_frames.pth
+4,"[0, 2, 5, 7]",0.7388888888888889,0.7297746443750542,results\progressive_coverage_gru_4_frames.pth
+8,"[0, 1, 2, 3, 4, 5, 6, 7]",0.7222222222222222,0.7125573362313959,results\progressive_coverage_gru_8_frames.pth

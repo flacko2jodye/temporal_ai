@@ -1,0 +1,28 @@
+# Scientific computing and data processing
+numpy==2.4.6
+pandas==3.1.0
+scipy==1.17.1
+scikit-learn==1.9.1
+
+# Computer vision and image processing
+opencv-python==5.0.0.93
+Pillow==13.0.0
+
+# Deep learning and pretrained models
+transformers==5.22.1
+accelerate==1.15.0
+safetensors==0.8.0
+huggingface_hub==2.4.0
+
+# PyTorch
+# Install separately according to hardware and CUDA compatibility.
+# Tested environment:
+# torch==2.7.1+cu126
+# torchvision==0.22.1+cu126
+
+# Visualization
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# Progress bars
+tqdm==4.70.1

@@ -1,0 +1,125 @@
+{
+    "dataset": "HMDB51 selected six classes",
+    "embedding_model": "facebook/dinov2-small",
+    "num_videos": 600,
+    "num_frames_per_video": 8,
+    "embedding_dimension": 384,
+    "classes": [
+        "brush_hair",
+        "clap",
+        "drink",
+        "eat",
+        "pour",
+        "wave"
+    ],
+    "adjacent_frame_similarity": {
+        "overall_mean": 0.8569995164871216,
+        "overall_std": 0.15388359129428864,
+        "per_class": {
+            "brush_hair": {
+                "mean": 0.8082804679870605,
+                "std": 0.13384264707565308
+            },
+            "clap": {
+                "mean": 0.8727026581764221,
+                "std": 0.14261677861213684
+            },
+            "drink": {
+                "mean": 0.8281837105751038,
+                "std": 0.15984809398651123
+            },
+            "eat": {
+                "mean": 0.8397004008293152,
+                "std": 0.18485000729560852
+            },
+            "pour": {
+                "mean": 0.9246622920036316,
+                "std": 0.07177349179983139
+            },
+            "wave": {
+                "mean": 0.8684677481651306,
+                "std": 0.1746300309896469
+            }
+        }
+    },
+    "temporal_variation": {
+        "overall_mean": 0.14300045371055603,
+        "overall_std": 0.08463092893362045
+    },
+    "sequence_similarity": {
+        "mean_intra_class_similarity": 0.31928062109879896,
+        "std_intra_class_similarity": 0.16282934950888944,
+        "mean_inter_class_similarity": 0.202613964676857,
+        "std_inter_class_similarity": 0.1183568611741066
+    },
+    "pca_trajectory": {
+        "explained_variance_pc1": 0.06284856051206589,
+        "explained_variance_pc2": 0.05567319691181183,
+        "explained_variance_total": 0.11852175742387772,
+        "visualized_sequences": 12,
+        "visualized_videos": [
+            "Aussie_Brunette_Brushing_Long_Hair_brush_hair_u_nm_np1_ba_med_3.avi",
+            "Aussie_Brunette_Brushing_Long_Hair_brush_hair_u_nm_np1_fr_goo_1.avi",
+            "103_years_old_japanese_woman__Nao_is_clapping_with_piano_music_by_beethoven_clap_u_cm_np1_fr_med_1.avi",
+            "103_years_old_japanese_woman__Nao_is_clapping_with_piano_music_by_beethoven_clap_u_nm_np1_fr_med_0.avi",
+            "50_FIRST_DATES_drink_u_nm_np1_fr_goo_29.avi",
+            "AMADEUS_drink_u_nm_np1_fr_goo_11.avi",
+            "20060723sfjffdabaum_eat_h_cm_np1_fr_goo_0.avi",
+            "AMADEUS_eat_u_nm_np1_fr_goo_10.avi",
+            "Bartender_of_America_Bartending_School_pour_u_cm_np1_fr_med_0.avi",
+            "Bartender_of_America_Bartending_School_pour_u_cm_np1_fr_med_1.avi",
+            "20060723sfjffbartsinger_wave_f_cm_np1_ba_med_0.avi",
+            "American_History_X_wave_u_nm_np1_fr_med_16.avi"
+        ]
+    },
+    "class_centroid_similarity": {
+        "brush_hair": {
+            "brush_hair": 0.9999998807907104,
+            "clap": 0.7183055877685547,
+            "drink": 0.5347859263420105,
+            "eat": 0.5415561199188232,
+            "pour": 0.4262710213661194,
+            "wave": 0.6203543543815613
+        },
+        "clap": {
+            "brush_hair": 0.7183055877685547,
+            "clap": 1.0,
+            "drink": 0.7092851996421814,
+            "eat": 0.7053810954093933,
+            "pour": 0.5625088214874268,
+            "wave": 0.8676380515098572
+        },
+        "drink": {
+            "brush_hair": 0.5347859263420105,
+            "clap": 0.7092851996421814,
+            "drink": 1.0,
+            "eat": 0.938748836517334,
+            "pour": 0.5639727115631104,
+            "wave": 0.698723554611206
+        },
+        "eat": {
+            "brush_hair": 0.5415561199188232,
+            "clap": 0.7053810954093933,
+            "drink": 0.938748836517334,
+            "eat": 0.9999997615814209,
+            "pour": 0.5809635519981384,
+            "wave": 0.6798422336578369
+        },
+        "pour": {
+            "brush_hair": 0.4262710213661194,
+            "clap": 0.5625088214874268,
+            "drink": 0.5639727115631104,
+            "eat": 0.5809635519981384,
+            "pour": 0.9999998807907104,
+            "wave": 0.4788784980773926
+        },
+        "wave": {
+            "brush_hair": 0.6203543543815613,
+            "clap": 0.8676380515098572,
+            "drink": 0.698723554611206,
+            "eat": 0.6798422336578369,
+            "pour": 0.4788784980773926,
+            "wave": 1.000000238418579
+        }
+    }
+}

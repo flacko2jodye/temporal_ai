@@ -1,0 +1,473 @@
+{
+  "single_frame": {
+    "accuracy": 0.6944444444444444,
+    "macro_f1": 0.6914451125166056,
+    "confusion_matrix": [
+      [
+        25,
+        1,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        12,
+        2,
+        2,
+        2,
+        11
+      ],
+      [
+        0,
+        0,
+        18,
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        7,
+        21,
+        0,
+        1
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        27,
+        0
+      ],
+      [
+        1,
+        2,
+        5,
+        0,
+        0,
+        22
+      ]
+    ],
+    "classification_report": {
+      "brush_hair": {
+        "precision": 0.8620689655172413,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.847457627118644,
+        "support": 30.0
+      },
+      "clap": {
+        "precision": 0.7058823529411765,
+        "recall": 0.4,
+        "f1-score": 0.5106382978723404,
+        "support": 30.0
+      },
+      "drink": {
+        "precision": 0.5294117647058824,
+        "recall": 0.6,
+        "f1-score": 0.5625,
+        "support": 30.0
+      },
+      "eat": {
+        "precision": 0.6,
+        "recall": 0.7,
+        "f1-score": 0.6461538461538462,
+        "support": 30.0
+      },
+      "pour": {
+        "precision": 0.9310344827586207,
+        "recall": 0.9,
+        "f1-score": 0.9152542372881356,
+        "support": 30.0
+      },
+      "wave": {
+        "precision": 0.6111111111111112,
+        "recall": 0.7333333333333333,
+        "f1-score": 0.6666666666666666,
+        "support": 30.0
+      },
+      "accuracy": 0.6944444444444444,
+      "macro avg": {
+        "precision": 0.7065847795056719,
+        "recall": 0.6944444444444443,
+        "f1-score": 0.6914451125166056,
+        "support": 180.0
+      },
+      "weighted avg": {
+        "precision": 0.706584779505672,
+        "recall": 0.6944444444444444,
+        "f1-score": 0.6914451125166055,
+        "support": 180.0
+      }
+    },
+    "top_confusions": [
+      {
+        "true_class": "drink",
+        "predicted_class": "eat",
+        "count": 12
+      },
+      {
+        "true_class": "clap",
+        "predicted_class": "wave",
+        "count": 11
+      },
+      {
+        "true_class": "eat",
+        "predicted_class": "drink",
+        "count": 7
+      },
+      {
+        "true_class": "wave",
+        "predicted_class": "drink",
+        "count": 5
+      },
+      {
+        "true_class": "brush_hair",
+        "predicted_class": "drink",
+        "count": 2
+      },
+      {
+        "true_class": "brush_hair",
+        "predicted_class": "wave",
+        "count": 2
+      },
+      {
+        "true_class": "clap",
+        "predicted_class": "drink",
+        "count": 2
+      },
+      {
+        "true_class": "clap",
+        "predicted_class": "eat",
+        "count": 2
+      },
+      {
+        "true_class": "clap",
+        "predicted_class": "pour",
+        "count": 2
+      },
+      {
+        "true_class": "pour",
+        "predicted_class": "brush_hair",
+        "count": 2
+      }
+    ]
+  },
+  "mean_pool": {
+    "accuracy": 0.7277777777777777,
+    "macro_f1": 0.7264237366495818,
+    "confusion_matrix": [
+      [
+        27,
+        0,
+        1,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        13,
+        2,
+        1,
+        3,
+        10
+      ],
+      [
+        0,
+        0,
+        20,
+        8,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        6,
+        22,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        27,
+        3
+      ],
+      [
+        1,
+        1,
+        2,
+        4,
+        0,
+        22
+      ]
+    ],
+    "classification_report": {
+      "brush_hair": {
+        "precision": 0.9310344827586207,
+        "recall": 0.9,
+        "f1-score": 0.9152542372881356,
+        "support": 30.0
+      },
+      "clap": {
+        "precision": 0.9285714285714286,
+        "recall": 0.43333333333333335,
+        "f1-score": 0.5909090909090909,
+        "support": 30.0
+      },
+      "drink": {
+        "precision": 0.6451612903225806,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6557377049180327,
+        "support": 30.0
+      },
+      "eat": {
+        "precision": 0.6285714285714286,
+        "recall": 0.7333333333333333,
+        "f1-score": 0.676923076923077,
+        "support": 30.0
+      },
+      "pour": {
+        "precision": 0.9,
+        "recall": 0.9,
+        "f1-score": 0.9,
+        "support": 30.0
+      },
+      "wave": {
+        "precision": 0.5365853658536586,
+        "recall": 0.7333333333333333,
+        "f1-score": 0.6197183098591549,
+        "support": 30.0
+      },
+      "accuracy": 0.7277777777777777,
+      "macro avg": {
+        "precision": 0.7616539993462862,
+        "recall": 0.7277777777777777,
+        "f1-score": 0.7264237366495818,
+        "support": 180.0
+      },
+      "weighted avg": {
+        "precision": 0.7616539993462862,
+        "recall": 0.7277777777777777,
+        "f1-score": 0.7264237366495818,
+        "support": 180.0
+      }
+    },
+    "top_confusions": [
+      {
+        "true_class": "clap",
+        "predicted_class": "wave",
+        "count": 10
+      },
+      {
+        "true_class": "drink",
+        "predicted_class": "eat",
+        "count": 8
+      },
+      {
+        "true_class": "eat",
+        "predicted_class": "drink",
+        "count": 6
+      },
+      {
+        "true_class": "wave",
+        "predicted_class": "eat",
+        "count": 4
+      },
+      {
+        "true_class": "clap",
+        "predicted_class": "pour",
+        "count": 3
+      },
+      {
+        "true_class": "pour",
+        "predicted_class": "wave",
+        "count": 3
+      },
+      {
+        "true_class": "brush_hair",
+        "predicted_class": "wave",
+        "count": 2
+      },
+      {
+        "true_class": "clap",
+        "predicted_class": "drink",
+        "count": 2
+      },
+      {
+        "true_class": "drink",
+        "predicted_class": "wave",
+        "count": 2
+      },
+      {
+        "true_class": "eat",
+        "predicted_class": "wave",
+        "count": 2
+      }
+    ]
+  },
+  "gru": {
+    "accuracy": 0.7166666666666667,
+    "macro_f1": 0.7108357637281241,
+    "confusion_matrix": [
+      [
+        25,
+        1,
+        3,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        12,
+        2,
+        2,
+        2,
+        11
+      ],
+      [
+        0,
+        0,
+        21,
+        8,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        4,
+        23,
+        0,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        0,
+        26,
+        0
+      ],
+      [
+        2,
+        1,
+        1,
+        4,
+        0,
+        22
+      ]
+    ],
+    "classification_report": {
+      "brush_hair": {
+        "precision": 0.8064516129032258,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.819672131147541,
+        "support": 30.0
+      },
+      "clap": {
+        "precision": 0.8,
+        "recall": 0.4,
+        "f1-score": 0.5333333333333333,
+        "support": 30.0
+      },
+      "drink": {
+        "precision": 0.65625,
+        "recall": 0.7,
+        "f1-score": 0.6774193548387096,
+        "support": 30.0
+      },
+      "eat": {
+        "precision": 0.6216216216216216,
+        "recall": 0.7666666666666667,
+        "f1-score": 0.6865671641791045,
+        "support": 30.0
+      },
+      "pour": {
+        "precision": 0.896551724137931,
+        "recall": 0.8666666666666667,
+        "f1-score": 0.8813559322033898,
+        "support": 30.0
+      },
+      "wave": {
+        "precision": 0.6111111111111112,
+        "recall": 0.7333333333333333,
+        "f1-score": 0.6666666666666666,
+        "support": 30.0
+      },
+      "accuracy": 0.7166666666666667,
+      "macro avg": {
+        "precision": 0.7319976782956482,
+        "recall": 0.7166666666666667,
+        "f1-score": 0.7108357637281241,
+        "support": 180.0
+      },
+      "weighted avg": {
+        "precision": 0.7319976782956483,
+        "recall": 0.7166666666666667,
+        "f1-score": 0.7108357637281242,
+        "support": 180.0
+      }
+    },
+    "top_confusions": [
+      {
+        "true_class": "clap",
+        "predicted_class": "wave",
+        "count": 11
+      },
+      {
+        "true_class": "drink",
+        "predicted_class": "eat",
+        "count": 8
+      },
+      {
+        "true_class": "eat",
+        "predicted_class": "drink",
+        "count": 4
+      },
+      {
+        "true_class": "wave",
+        "predicted_class": "eat",
+        "count": 4
+      },
+      {
+        "true_class": "brush_hair",
+        "predicted_class": "drink",
+        "count": 3
+      },
+      {
+        "true_class": "pour",
+        "predicted_class": "brush_hair",
+        "count": 3
+      },
+      {
+        "true_class": "clap",
+        "predicted_class": "drink",
+        "count": 2
+      },
+      {
+        "true_class": "clap",
+        "predicted_class": "eat",
+        "count": 2
+      },
+      {
+        "true_class": "clap",
+        "predicted_class": "pour",
+        "count": 2
+      },
+      {
+        "true_class": "eat",
+        "predicted_class": "wave",
+        "count": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+filename,true_label,single_frame_prediction,single_frame_correct,mean_pool_prediction,mean_pool_correct,gru_prediction,gru_correct,all_models_correct,all_models_wrong,error_pattern
+Brushing_my_long_hair_brush_hair_u_nm_np1_fr_goo_0.avi,brush_hair,brush_hair,True,wave,False,brush_hair,True,False,False,mean_pool
+GardenWiseA256kb_drink_u_cm_np1_fr_goo_0.avi,drink,drink,True,wave,False,drink,True,False,False,mean_pool
+MeettheFockers_drink_u_nm_np1_fr_goo_6.avi,drink,eat,False,eat,False,drink,True,False,False,single_frame | mean_pool
+Oceans13_drink_h_nm_np1_fr_goo_3.avi,drink,drink,True,wave,False,drink,True,False,False,mean_pool
+SocialSeminarChanging_eat_u_cm_np1_fr_goo_2.avi,eat,drink,False,drink,False,eat,True,False,False,single_frame | mean_pool
+SweeneyTodd_eat_h_nm_np1_fr_bad_1.avi,eat,drink,False,drink,False,eat,True,False,False,single_frame | mean_pool
+The_Slow_Clap_clap_u_cm_np1_fr_med_4.avi,clap,wave,False,wave,False,clap,True,False,False,single_frame | mean_pool

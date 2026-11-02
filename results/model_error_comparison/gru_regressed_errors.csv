@@ -1,0 +1,10 @@
+filename,true_label,single_frame_prediction,single_frame_correct,mean_pool_prediction,mean_pool_correct,gru_prediction,gru_correct,all_models_correct,all_models_wrong,error_pattern
+Basic_Vodka_Recipes_-_How_to_Make_a_Shirley_Temple_pour_u_cm_np1_fr_med_0.avi,pour,pour,True,pour,True,drink,False,False,False,gru
+KUNG_FU_HUSTLE_drink_h_cm_np1_fr_goo_5.avi,drink,eat,False,drink,True,eat,False,False,False,single_frame | gru
+Prelinger_HabitPat1954_brush_hair_u_cm_np1_le_med_10.avi,brush_hair,brush_hair,True,brush_hair,True,drink,False,False,False,gru
+Prelinger_HabitPat1954_brush_hair_u_nm_np1_le_goo_11.avi,brush_hair,drink,False,brush_hair,True,drink,False,False,False,single_frame | gru
+Prelinger_HabitPat1954_drink_u_nm_np1_fr_goo_15.avi,drink,eat,False,drink,True,eat,False,False,False,single_frame | gru
+The_Departed_-_Part_1_eat_u_nm_np1_fr_med_2.avi,eat,clap,False,eat,True,clap,False,False,False,single_frame | gru
+The_Slow_Clap_clap_u_nm_np1_fr_med_2.avi,clap,clap,True,clap,True,wave,False,False,False,gru
+The_Slow_Clap_clap_u_nm_np2_fr_med_8.avi,clap,clap,True,clap,True,wave,False,False,False,gru
+me_brushing_my_hair_lol_i_was_being_silly_brush_hair_u_nm_np1_le_goo_1.avi,brush_hair,wave,False,brush_hair,True,clap,False,False,False,single_frame | gru

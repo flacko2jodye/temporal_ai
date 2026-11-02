@@ -1,0 +1,457 @@
+{
+    "experiment": "image_level_visual_corruption_robustness",
+    "dataset": "HMDB51 selected six classes",
+    "test_videos": 180,
+    "frames_per_video": 8,
+    "embedding_model": "facebook/dinov2-small",
+    "classifier": "trained DINOv2 temporal GRU",
+    "classifier_checkpoint": "results\\gru_temporal.pth",
+    "device": "cuda",
+    "random_seed": 42,
+    "transformations": {
+        "original": {
+            "description": "No image transformation"
+        },
+        "gaussian_blur": {
+            "radius": 2.0
+        },
+        "gaussian_noise": {
+            "standard_deviation": 20.0,
+            "pixel_range": "0-255",
+            "seed": 42
+        },
+        "brightness_reduction": {
+            "factor": 0.5
+        }
+    },
+    "results": {
+        "original": {
+            "accuracy": 0.7166666666666667,
+            "macro_f1": 0.7108357637281241,
+            "classification_report": {
+                "brush_hair": {
+                    "precision": 0.8064516129032258,
+                    "recall": 0.8333333333333334,
+                    "f1-score": 0.819672131147541,
+                    "support": 30.0
+                },
+                "clap": {
+                    "precision": 0.8,
+                    "recall": 0.4,
+                    "f1-score": 0.5333333333333333,
+                    "support": 30.0
+                },
+                "drink": {
+                    "precision": 0.65625,
+                    "recall": 0.7,
+                    "f1-score": 0.6774193548387096,
+                    "support": 30.0
+                },
+                "eat": {
+                    "precision": 0.6216216216216216,
+                    "recall": 0.7666666666666667,
+                    "f1-score": 0.6865671641791045,
+                    "support": 30.0
+                },
+                "pour": {
+                    "precision": 0.896551724137931,
+                    "recall": 0.8666666666666667,
+                    "f1-score": 0.8813559322033898,
+                    "support": 30.0
+                },
+                "wave": {
+                    "precision": 0.6111111111111112,
+                    "recall": 0.7333333333333333,
+                    "f1-score": 0.6666666666666666,
+                    "support": 30.0
+                },
+                "accuracy": 0.7166666666666667,
+                "macro avg": {
+                    "precision": 0.7319976782956482,
+                    "recall": 0.7166666666666667,
+                    "f1-score": 0.7108357637281241,
+                    "support": 180.0
+                },
+                "weighted avg": {
+                    "precision": 0.7319976782956483,
+                    "recall": 0.7166666666666667,
+                    "f1-score": 0.7108357637281242,
+                    "support": 180.0
+                }
+            },
+            "confusion_matrix": [
+                [
+                    25,
+                    1,
+                    3,
+                    0,
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    12,
+                    2,
+                    2,
+                    2,
+                    11
+                ],
+                [
+                    0,
+                    0,
+                    21,
+                    8,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    4,
+                    23,
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    0,
+                    1,
+                    0,
+                    26,
+                    0
+                ],
+                [
+                    2,
+                    1,
+                    1,
+                    4,
+                    0,
+                    22
+                ]
+            ],
+            "accuracy_change": 0.0,
+            "macro_f1_change": 0.0
+        },
+        "gaussian_blur": {
+            "accuracy": 0.6944444444444444,
+            "macro_f1": 0.6907329186161002,
+            "classification_report": {
+                "brush_hair": {
+                    "precision": 0.8387096774193549,
+                    "recall": 0.8666666666666667,
+                    "f1-score": 0.8524590163934426,
+                    "support": 30.0
+                },
+                "clap": {
+                    "precision": 0.7647058823529411,
+                    "recall": 0.43333333333333335,
+                    "f1-score": 0.5531914893617021,
+                    "support": 30.0
+                },
+                "drink": {
+                    "precision": 0.59375,
+                    "recall": 0.6333333333333333,
+                    "f1-score": 0.6129032258064516,
+                    "support": 30.0
+                },
+                "eat": {
+                    "precision": 0.6451612903225806,
+                    "recall": 0.6666666666666666,
+                    "f1-score": 0.6557377049180327,
+                    "support": 30.0
+                },
+                "pour": {
+                    "precision": 0.8387096774193549,
+                    "recall": 0.8666666666666667,
+                    "f1-score": 0.8524590163934426,
+                    "support": 30.0
+                },
+                "wave": {
+                    "precision": 0.5526315789473685,
+                    "recall": 0.7,
+                    "f1-score": 0.6176470588235294,
+                    "support": 30.0
+                },
+                "accuracy": 0.6944444444444444,
+                "macro avg": {
+                    "precision": 0.7056113510769334,
+                    "recall": 0.6944444444444445,
+                    "f1-score": 0.6907329186161002,
+                    "support": 180.0
+                },
+                "weighted avg": {
+                    "precision": 0.7056113510769334,
+                    "recall": 0.6944444444444444,
+                    "f1-score": 0.6907329186161002,
+                    "support": 180.0
+                }
+            },
+            "confusion_matrix": [
+                [
+                    26,
+                    1,
+                    1,
+                    0,
+                    0,
+                    2
+                ],
+                [
+                    1,
+                    13,
+                    3,
+                    0,
+                    2,
+                    11
+                ],
+                [
+                    0,
+                    0,
+                    19,
+                    7,
+                    3,
+                    1
+                ],
+                [
+                    0,
+                    1,
+                    6,
+                    20,
+                    0,
+                    3
+                ],
+                [
+                    3,
+                    0,
+                    1,
+                    0,
+                    26,
+                    0
+                ],
+                [
+                    1,
+                    2,
+                    2,
+                    4,
+                    0,
+                    21
+                ]
+            ],
+            "accuracy_change": -0.022222222222222254,
+            "macro_f1_change": -0.02010284511202387
+        },
+        "gaussian_noise": {
+            "accuracy": 0.6777777777777778,
+            "macro_f1": 0.6739584964980198,
+            "classification_report": {
+                "brush_hair": {
+                    "precision": 0.7857142857142857,
+                    "recall": 0.7333333333333333,
+                    "f1-score": 0.7586206896551724,
+                    "support": 30.0
+                },
+                "clap": {
+                    "precision": 0.7857142857142857,
+                    "recall": 0.36666666666666664,
+                    "f1-score": 0.5,
+                    "support": 30.0
+                },
+                "drink": {
+                    "precision": 0.5384615384615384,
+                    "recall": 0.7,
+                    "f1-score": 0.6086956521739131,
+                    "support": 30.0
+                },
+                "eat": {
+                    "precision": 0.6470588235294118,
+                    "recall": 0.7333333333333333,
+                    "f1-score": 0.6875,
+                    "support": 30.0
+                },
+                "pour": {
+                    "precision": 0.8928571428571429,
+                    "recall": 0.8333333333333334,
+                    "f1-score": 0.8620689655172413,
+                    "support": 30.0
+                },
+                "wave": {
+                    "precision": 0.5675675675675675,
+                    "recall": 0.7,
+                    "f1-score": 0.6268656716417911,
+                    "support": 30.0
+                },
+                "accuracy": 0.6777777777777778,
+                "macro avg": {
+                    "precision": 0.7028956073073719,
+                    "recall": 0.6777777777777777,
+                    "f1-score": 0.6739584964980198,
+                    "support": 180.0
+                },
+                "weighted avg": {
+                    "precision": 0.702895607307372,
+                    "recall": 0.6777777777777778,
+                    "f1-score": 0.6739584964980196,
+                    "support": 180.0
+                }
+            },
+            "confusion_matrix": [
+                [
+                    22,
+                    1,
+                    4,
+                    1,
+                    0,
+                    2
+                ],
+                [
+                    1,
+                    11,
+                    3,
+                    3,
+                    2,
+                    10
+                ],
+                [
+                    0,
+                    0,
+                    21,
+                    5,
+                    1,
+                    3
+                ],
+                [
+                    0,
+                    0,
+                    7,
+                    22,
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    0,
+                    2,
+                    0,
+                    25,
+                    0
+                ],
+                [
+                    2,
+                    2,
+                    2,
+                    3,
+                    0,
+                    21
+                ]
+            ],
+            "accuracy_change": -0.03888888888888886,
+            "macro_f1_change": -0.036877267230104316
+        },
+        "brightness_reduction": {
+            "accuracy": 0.7444444444444445,
+            "macro_f1": 0.7417934040838224,
+            "classification_report": {
+                "brush_hair": {
+                    "precision": 0.84375,
+                    "recall": 0.9,
+                    "f1-score": 0.8709677419354839,
+                    "support": 30.0
+                },
+                "clap": {
+                    "precision": 0.875,
+                    "recall": 0.4666666666666667,
+                    "f1-score": 0.6086956521739131,
+                    "support": 30.0
+                },
+                "drink": {
+                    "precision": 0.7096774193548387,
+                    "recall": 0.7333333333333333,
+                    "f1-score": 0.7213114754098361,
+                    "support": 30.0
+                },
+                "eat": {
+                    "precision": 0.6216216216216216,
+                    "recall": 0.7666666666666667,
+                    "f1-score": 0.6865671641791045,
+                    "support": 30.0
+                },
+                "pour": {
+                    "precision": 0.9285714285714286,
+                    "recall": 0.8666666666666667,
+                    "f1-score": 0.896551724137931,
+                    "support": 30.0
+                },
+                "wave": {
+                    "precision": 0.6111111111111112,
+                    "recall": 0.7333333333333333,
+                    "f1-score": 0.6666666666666666,
+                    "support": 30.0
+                },
+                "accuracy": 0.7444444444444445,
+                "macro avg": {
+                    "precision": 0.7649552634431668,
+                    "recall": 0.7444444444444445,
+                    "f1-score": 0.7417934040838224,
+                    "support": 180.0
+                },
+                "weighted avg": {
+                    "precision": 0.7649552634431667,
+                    "recall": 0.7444444444444445,
+                    "f1-score": 0.7417934040838225,
+                    "support": 180.0
+                }
+            },
+            "confusion_matrix": [
+                [
+                    27,
+                    0,
+                    2,
+                    0,
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    14,
+                    1,
+                    2,
+                    2,
+                    10
+                ],
+                [
+                    0,
+                    0,
+                    22,
+                    7,
+                    0,
+                    1
+                ],
+                [
+                    0,
+                    1,
+                    4,
+                    23,
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    0,
+                    1,
+                    0,
+                    26,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    5,
+                    0,
+                    22
+                ]
+            ],
+            "accuracy_change": 0.02777777777777779,
+            "macro_f1_change": 0.030957640355698368
+        }
+    }
+}

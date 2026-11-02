@@ -1,0 +1,81 @@
+{
+    "experiment": "coverage_controlled_progressive_observations",
+    "dataset": "HMDB51 selected six classes",
+    "embedding_model": "facebook/dinov2-small",
+    "frames_per_video": 8,
+    "observation_selection": {
+        "1": [
+            4
+        ],
+        "2": [
+            0,
+            7
+        ],
+        "4": [
+            0,
+            2,
+            5,
+            7
+        ],
+        "8": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ]
+    },
+    "random_seed": 42,
+    "results": [
+        {
+            "observation_count": 1,
+            "selected_frame_indices": [
+                4
+            ],
+            "accuracy": 0.7388888888888889,
+            "macro_f1": 0.7364230138842472,
+            "checkpoint": "results\\progressive_coverage_gru_1_frames.pth"
+        },
+        {
+            "observation_count": 2,
+            "selected_frame_indices": [
+                0,
+                7
+            ],
+            "accuracy": 0.7055555555555556,
+            "macro_f1": 0.6973985334641073,
+            "checkpoint": "results\\progressive_coverage_gru_2_frames.pth"
+        },
+        {
+            "observation_count": 4,
+            "selected_frame_indices": [
+                0,
+                2,
+                5,
+                7
+            ],
+            "accuracy": 0.7388888888888889,
+            "macro_f1": 0.7297746443750542,
+            "checkpoint": "results\\progressive_coverage_gru_4_frames.pth"
+        },
+        {
+            "observation_count": 8,
+            "selected_frame_indices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "accuracy": 0.7222222222222222,
+            "macro_f1": 0.7125573362313959,
+            "checkpoint": "results\\progressive_coverage_gru_8_frames.pth"
+        }
+    ]
+}

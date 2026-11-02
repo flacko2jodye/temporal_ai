@@ -1,0 +1,44 @@
+{
+    "total_videos": 180,
+    "overall": {
+        "single_frame": {
+            "correct": 125,
+            "incorrect": 55,
+            "accuracy": 0.6944444444444444
+        },
+        "mean_pool": {
+            "correct": 131,
+            "incorrect": 49,
+            "accuracy": 0.7277777777777777
+        },
+        "gru": {
+            "correct": 129,
+            "incorrect": 51,
+            "accuracy": 0.7166666666666667
+        }
+    },
+    "all_models_correct": 112,
+    "all_models_wrong": 36,
+    "pairwise_comparisons": {
+        "single_frame_vs_mean_pool": {
+            "single_frame_correct_mean_pool_wrong": 9,
+            "mean_pool_correct_single_frame_wrong": 15,
+            "both_correct": 116,
+            "both_wrong": 40
+        },
+        "single_frame_vs_gru": {
+            "single_frame_correct_gru_wrong": 10,
+            "gru_correct_single_frame_wrong": 14,
+            "both_correct": 115,
+            "both_wrong": 41
+        },
+        "mean_pool_vs_gru": {
+            "mean_pool_correct_gru_wrong": 9,
+            "gru_correct_mean_pool_wrong": 7,
+            "both_correct": 122,
+            "both_wrong": 42
+        }
+    },
+    "gru_corrected_mean_pool_errors": 7,
+    "gru_regressed_on_mean_pool_successes": 9
+}

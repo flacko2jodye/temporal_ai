@@ -1,0 +1,10 @@
+{
+    "model": "temporal_gru",
+    "accuracy": 0.7166666666666667,
+    "macro_f1": 0.7108357637281241,
+    "test_samples": 180,
+    "frames_per_video": 8,
+    "embedding_dimension": 384,
+    "hidden_dimension": 128,
+    "num_layers": 1
+}
